@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:foodies_hub/main.dart';
 import 'package:foodies_hub/models/meal.dart';
 import 'package:foodies_hub/screens/meals_details.dart';
 import 'package:foodies_hub/widgets/meal_item.dart';
@@ -31,11 +30,11 @@ class MealsScreen extends StatelessWidget{
           children:  [
             Text(" OH uh, nothing here" ,
               style: Theme.of(context).textTheme.bodyLarge!.copyWith(
-                  color: Theme.of(context).colorScheme.onBackground ),),
+                  color: Theme.of(context).colorScheme.onSurface ),),
             const SizedBox(height: 16,),
             Text('Try selecting a different category',
               style: Theme.of(context).textTheme.bodyLarge!.copyWith(
-                  color: Theme.of(context).colorScheme.onBackground ),),
+                  color: Theme.of(context).colorScheme.onSurface ),),
           ],
         ),
       );

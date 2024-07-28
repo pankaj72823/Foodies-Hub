@@ -1,4 +1,3 @@
-import 'dart:js_interop';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -70,16 +69,19 @@ class MealsDetails extends ConsumerWidget{
               ],
             ),
             const SizedBox(height: 10,),
-            Column(
-              children: [
-                const Text('Steps', style: TextStyle(
-                    color: Colors.orangeAccent,
-                    fontWeight: FontWeight.bold
-                ),
-                ),
-                for(final item in meals.steps)
-                  Text(item, style: const TextStyle(color: Colors.white)),
-              ],
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 15),
+              child: Column(
+                children: [
+                  const Text('Steps', style: TextStyle(
+                      color: Colors.orangeAccent,
+                      fontWeight: FontWeight.bold
+                  ),
+                  ),
+                  for(final item in meals.steps)
+                    Text(item, style: const TextStyle(color: Colors.white)),
+                ],
+              ),
             )
           ],
         ),

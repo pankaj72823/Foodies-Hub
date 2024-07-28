@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:foodies_hub/screens/categoriesscreen.dart';
-import 'package:foodies_hub/models/meal.dart';
-
-import '../models/meal.dart';
-
 class MainDrawer extends StatelessWidget{
   const MainDrawer({super.key, required this.onSelectScreen});
 
@@ -42,11 +37,11 @@ class MainDrawer extends StatelessWidget{
     ),
           ListTile(
 
-            leading: Icon(Icons.restaurant, color: Theme.of(context).colorScheme.onBackground,),
+            leading: Icon(Icons.restaurant, color: Theme.of(context).colorScheme.onSurface,),
             title: Text(
                 'Meals',
                 style: Theme.of(context).textTheme.titleSmall!.copyWith(
-                  color: Theme.of(context).colorScheme.onBackground,
+                  color: Theme.of(context).colorScheme.onSurface,
                   fontSize: 24,
                 )
             ),
@@ -60,11 +55,11 @@ class MainDrawer extends StatelessWidget{
             },
           ),
           ListTile(
-            leading: Icon(Icons.settings, color: Theme.of(context).colorScheme.onBackground,),
+            leading: Icon(Icons.settings, color: Theme.of(context).colorScheme.onSurface,),
             title: Text(
               'Filters',
               style: Theme.of(context).textTheme.titleSmall!.copyWith(
-                color: Theme.of(context).colorScheme.onBackground,
+                color: Theme.of(context).colorScheme.onSurface,
                 fontSize: 24,
               )
             ),

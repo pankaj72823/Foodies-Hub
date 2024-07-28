@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:foodies_hub/data/dummy_data.dart';
 
 
 class MealItemTrait extends StatelessWidget{

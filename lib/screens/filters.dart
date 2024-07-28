@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:foodies_hub/screens/tabs.dart';
-import 'package:foodies_hub/widgets/main_drawer.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'package:foodies_hub/provider/filter_provider.dart';

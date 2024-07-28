@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:foodies_hub/provider/favourites_provider.dart';
-import 'package:foodies_hub/provider/meals_provider.dart';
-// import 'package:foodies_hub/data/dummy_data.dart';
+
 import 'package:foodies_hub/screens/categoriesscreen.dart';
 import 'package:foodies_hub/screens/filters.dart';
 import 'package:foodies_hub/screens/meals.dart';
-import 'package:foodies_hub/screens/meals_details.dart';
-import 'package:foodies_hub/models/meal.dart';
+
 import 'package:foodies_hub/widgets/main_drawer.dart';
 
 import '../provider/filter_provider.dart';
